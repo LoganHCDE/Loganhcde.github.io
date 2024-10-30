@@ -3066,8 +3066,8 @@ body {
 
 /* ←  Back 43 */
 .back-43-28bb5ce071d2 {
-  width: 90vw;
-  height: auto;
+  width: auto;
+  height: 2.5vmax;
   flex-shrink: 0;
   margin: 25px 5vw 0px 5vw;
 }
@@ -3103,10 +3103,14 @@ body {
   caret-color: rgba(0, 0, 0, 1);
   text-decoration: none;
   letter-spacing: 0px;
-  font-size: 28px;
+  font-size: 2.4vmax;
   font-family: "sourcesanspro";
   font-style: normal;
   font-weight: 400;
+}
+
+.back-43-28bb5ce071d2:hover .root-0-paragraph-set-0-paragraph-0-text-0 {
+  font-size:2vmax;
 }
 
 /* Header */
