@@ -162,8 +162,8 @@ body {
 .footer-lin-28ca78b6c942 {
   position: absolute;
   display: flex;
-  right: calc(40vw - 13vh);
-  top: 3vh;
+  left: 31vw;
+  top: calc(5vh - 1vw);
   width: auto;
   height: auto;
   column-gap: 5vw;
@@ -173,8 +173,8 @@ body {
 
 @media (max-width: 650px) {
   .footer-lin-28ca78b6c942 {
-  top: 3.5vh;
-  right: 3vw;
+  top: calc(5vh - 1.5vw);
+  left: 35vw;
   }
 }
 
@@ -216,7 +216,7 @@ body {
   caret-color: rgba(165, 165, 165, 1);
   text-decoration: none;
   letter-spacing: 0px;
-  font-size:3vh;
+  font-size:2vw;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -224,7 +224,7 @@ body {
 
 @media (max-width: 600px) {
   .linkedin-28ca78b6c946 .root-0-paragraph-set-0-paragraph-0-text-0 {
-  font-size:2vh;
+  font-size:3vw;
   }
 }
 
@@ -266,7 +266,7 @@ body {
   caret-color: rgba(165, 165, 165, 1);
   text-decoration: none;
   letter-spacing: 0px;
-  font-size:3vh;
+  font-size:2vw;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -274,7 +274,7 @@ body {
 
 @media (max-width: 600px) {
   .resume-28ca78b6c945 .root-0-paragraph-set-0-paragraph-0-text-0 {
-  font-size:2vh;
+  font-size:3vw;
   }
 }
 
@@ -315,7 +315,7 @@ body {
   caret-color: rgba(165, 165, 165, 1);
   text-decoration: none;
   letter-spacing: 0px;
-  font-size:3vh;
+  font-size:2vw;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -324,7 +324,7 @@ body {
 
 @media (max-width: 600px) {
   .email-28ca78b6c944 .root-0-paragraph-set-0-paragraph-0-text-0 {
-  font-size:2vh;
+  font-size:3vw;
   }
 }
 
@@ -360,20 +360,21 @@ body {
   border-radius: 0px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
 }
+
 /* website button bottom */
 .website-bu-27735709f362 {
   position: relative;
   width: auto;
-  height: 4.20vmax;
+  height: 4.20vw;
   top: 0px;
   flex-shrink: 0;
-  margin: 1vmax 5vw 50px 5vw;
+  margin: 1vw 5vw 50px 5vw;
 }
 
 /* Link to Website↗ */
 .link-to-we-2773570a3c72 {
   position: relative;
-  left:1.9vmax;
+  left:1.9vw;
   align-self:center;
   top: 0px;
   width: auto;
@@ -412,7 +413,7 @@ body {
   caret-color: rgba(255, 255, 255, 1);
   text-decoration: none;
   letter-spacing: 0px;
-  font-size: 3vmax;
+  font-size: 3vw;
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
@@ -423,8 +424,8 @@ body {
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 25vmax;
-  height: 4vmax;
+  width: 25vw;
+  height: 4vw;
   background: #2F80E0;
   border-radius: 35px;
 }
@@ -432,7 +433,7 @@ body {
 .website-bu-27735709f362:hover .rectangle-2773570a3c72,
 .website-bu-27735709f362:hover .root-0-paragraph-set-0-paragraph-0-text-0 {
   transform: scale(1.05); /* Grow both slightly */
-  font-size:3.15vmax;
+  font-size:3.15vw;
 }
 
 .website-bu-27735709f362:hover .rectangle-2773570a3c72 {
@@ -2877,18 +2878,18 @@ As part of a three-designer team, we were responsible for modernizing the  */
 .website-bu-27735709f361 {
   position: relative;
   width: auto;
-  height: 5.25vmax;
+  height: 5.25vw;
   top: 0px;
   flex-shrink: 0;
-  margin: 1vmax 5vw -1.3vmax 5vw;
+  margin: 1vw 5vw -1.3vw 5vw;
 }
 
 /* Link to Website↗ */
 .link-to-we-2773570a3c7f {
   position: relative;
-  left:1.9vmax;
+  left:1.9vw;
   align-self:center;
-  top: -4.3vmax;
+  top: -4.3vw;
   width: auto;
   height: auto;
   text-wrap: nowrap;
@@ -2925,7 +2926,7 @@ As part of a three-designer team, we were responsible for modernizing the  */
   caret-color: rgba(255, 255, 255, 1);
   text-decoration: none;
   letter-spacing: 0px;
-  font-size: 3vmax;
+  font-size: 3vw;
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
@@ -2936,8 +2937,8 @@ As part of a three-designer team, we were responsible for modernizing the  */
   position: relative;
   left: 0px;
   top: 0px;
-  width: 25vmax;
-  height: 5vmax;
+  width: 25vw;
+  height: 5vw;
   background: #2F80E0;
   border-radius: 35px;
 }
@@ -2948,7 +2949,7 @@ As part of a three-designer team, we were responsible for modernizing the  */
 }
 
 .website-bu-27735709f361:hover .link-to-we-2773570a3c7f .root-0-paragraph-set-0-paragraph-0-text-0 {
-  font-size: 3.15vmax;
+  font-size: 3.15vw;
 }
 
  /* Subtitles */
@@ -3348,7 +3349,7 @@ font-weight: 400;
 /* ←  Back */
 .back-27735709f36a {
   width: auto;
-  height: 2.5vmax;
+  height: 2.5vw;
   flex-shrink: 0;
   margin: 25px 5vw 0px 5vw;
 }
@@ -3384,14 +3385,14 @@ font-weight: 400;
   caret-color: rgba(0, 0, 0, 1);
   text-decoration: none;
   letter-spacing: 0px;
-  font-size:2.4vmax;
+  font-size:2.4vw;
   font-family: "sourcesanspro";
   font-style: normal;
   font-weight: 400;
 }
 
 .back-27735709f36a:hover .root-0-paragraph-set-0-paragraph-0-text-0 {
-  font-size:2vmax;
+  font-size:2vw;
 }
 
 /* Header */
@@ -3430,31 +3431,26 @@ font-weight: 400;
 .header-lin-28ca78b6c94f {
   position: absolute;
   right: 5vw;
-  top: calc(0.9429 *2.25vh);
+  top: calc((0.9429 * 4.5vh) - 1.25vw);
   width: auto;
   height: auto;
   display: flex;
   align-items: start;
-  align-content: stretch;
-  justify-content: center;
-  column-gap: 8vw;
+  align-content: start;
+  justify-content: start;
+  column-gap: 7vw;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
-  font-size: 3.5vmax;
-}
-
-@media (max-width: 700px) {
-  .header-lin-28ca78b6c94f {
-  right: 1vw;
-  column-gap: 4vw;
-  }
 }
 
 @media (max-width: 600px) {
   .header-lin-28ca78b6c94f {
-  top: calc(0.9429 *4vh);
+  right: 1vw;
+  column-gap: 4vw;
+  top: calc((0.9429 * 4.5vh) - 2vw);
   }
 }
+
 
 
 /* Projects */
@@ -3495,7 +3491,7 @@ font-weight: 400;
   caret-color: rgba(0, 0, 0, 1);
   text-decoration: none;
   letter-spacing: 0px;
-  font-size:3.5vh;
+  font-size:2.5vw;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -3503,7 +3499,7 @@ font-weight: 400;
 
 @media (max-width: 600px) {
   .projects-28ca78b6c951 .root-0-paragraph-set-0-paragraph-0-text-0 {
-  font-size:2vh;
+  font-size:4vw;
   }
 }
 
@@ -3513,7 +3509,6 @@ font-weight: 400;
   width: auto;
   height: auto;
   flex-shrink: 0;
-  font-size:3.5vh;
 }
 .resume-28ca78b6c952 .root-0 {
   
@@ -3539,7 +3534,7 @@ font-weight: 400;
 .resume-28ca78b6c952 .root-0-paragraph-set-0-paragraph-0-text-0 {
   color: rgba(0, 0, 0, 1);
   text-transform: none;
-  font-size:3.5vh;
+  font-size:2.5vw;
   line-break: auto;
   overflow-wrap: initial;
   white-space: break-spaces;
@@ -3547,6 +3542,7 @@ font-weight: 400;
   caret-color: rgba(0, 0, 0, 1);
   text-decoration: none;
   letter-spacing: 0px;
+  font-size:2.5vw;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -3555,7 +3551,7 @@ font-weight: 400;
 
 @media (max-width: 600px) {
   .resume-28ca78b6c952 .root-0-paragraph-set-0-paragraph-0-text-0 {
-  font-size:2vh;
+  font-size:4vw;
   }
 }
 
@@ -3597,7 +3593,7 @@ font-weight: 400;
   caret-color: rgba(0, 0, 0, 1);
   text-decoration: none;
   letter-spacing: 0px;
-  font-size:3.5vh;
+  font-size:2.5vw;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -3605,7 +3601,7 @@ font-weight: 400;
 
 @media (max-width: 600px) {
   .linkedin-28ca78b6c953 .root-0-paragraph-set-0-paragraph-0-text-0 {
-  font-size:2vh;
+  font-size:4vw;
   }
 }
 
