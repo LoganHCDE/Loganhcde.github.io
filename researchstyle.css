@@ -1744,8 +1744,8 @@ January 2024 - Present */
 
 /* ←  Back */
 .back-28ca78b6c93e {
-  align-self: center;
-  width: 90vw;
+  align-self: start;
+  width: auto;
   height: 2.5vw;
   flex-shrink: 0;
   margin: 25px 5vw 25px 5vw;
